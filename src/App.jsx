@@ -364,7 +364,7 @@ function HomePage() {
       <div>
         <div style={{ display:"inline-flex", alignItems:"center", gap:8, padding:"5px 13px", marginBottom:20, border:"1px solid rgba(255,45,120,.36)", background:"rgba(255,45,120,.05)" }}>
           <span style={{ width:5,height:5,borderRadius:"50%",background:"var(--magenta)",animation:"bioPulse 1.1s ease-in-out infinite",display:"block",flexShrink:0 }}/>
-          <span className="mono" style={{ fontSize:9, color:"var(--magenta)", letterSpacing:"0.17em" }}>CLASSIFIED · DEPTH-SECTOR-Ω / PISCES PROTOCOL</span>
+          <span className="mono" style={{ fontSize:9, color:"var(--magenta)", letterSpacing:"0.17em" }}>CLASSIFIED · DEPTH-SECTOR-Ω / DEEP PROTOCOL</span>
         </div>
         <div className="orb" style={{ fontWeight:900, lineHeight:1.0, marginBottom:18 }}>
           <span className="glitch" data-text="SUBMERGED" style={{ fontSize:58, color:"var(--cyan)", display:"block" }}>SUBMERGED</span>
@@ -376,7 +376,7 @@ function HomePage() {
         </p>
         <div style={{ display:"flex", gap:12, marginBottom:34, flexWrap:"wrap" }}>
           <button style={{ fontFamily:"'Orbitron',monospace", fontWeight:700, fontSize:11, letterSpacing:"0.2em", padding:"12px 28px", background:"linear-gradient(135deg,rgba(0,255,231,.13),rgba(0,255,231,.04))", border:"1px solid var(--cyan)", color:"var(--cyan)", clipPath:"polygon(12px 0,100% 0,calc(100% - 12px) 100%,0 100%)", boxShadow:"0 0 26px rgba(0,255,231,.16)", cursor:"none" }}>◈ ENTER ABYSS</button>
-          <button style={{ fontFamily:"'Share Tech Mono',monospace", fontSize:11, letterSpacing:"0.18em", padding:"12px 22px", background:"none", border:"1px solid rgba(255,209,102,.3)", color:"var(--gold)", cursor:"none" }}>▷ WATCH TRAILER</button>
+          <button style={{ fontFamily:"'Share Tech Mono',monospace", fontSize:11, letterSpacing:"0.18em", padding:"12px 22px", background:"none", border:"1px solid rgba(255,209,102,.3)", color:"var(--gold)", cursor:"none" }}>▷ WATCH TUTORIAL</button>
         </div>
         <div style={{ display:"flex", gap:22 }}>
           {[{label:"DEPTH",value:"3,400M",sub:"ABYSS ZONE"},{label:"SPECIES",value:"147+",sub:"BIO-CYBER"},{label:"CITIES",value:"23",sub:"SUBMERGED"},{label:"PLAYERS",value:"2.1M",sub:"ONLINE NOW"}].map(s=>(
@@ -845,8 +845,8 @@ useEffect(() => {
           <div style={{ display:"flex", alignItems:"center", gap:12 }}>
             <div style={{ width:30, height:30, flexShrink:0, background:"linear-gradient(135deg,var(--cyan),var(--blue))", clipPath:"polygon(50% 0%,100% 50%,50% 100%,0% 50%)", animation:"bioPulse 3s ease-in-out infinite" }}/>
             <div>
-              <div className="orb" style={{ fontSize:12, color:"var(--cyan)", letterSpacing:"0.3em", fontWeight:900 }}>PISCES</div>
-              <div className="mono" style={{ fontSize:8, color:"var(--td)", letterSpacing:"0.15em" }}>DEEP_PROTOCOL_v2.8</div>
+              <div className="orb" style={{ fontSize:12, color:"var(--cyan)", letterSpacing:"0.25em", fontWeight:900 }}>SUBMERGED CITADEL</div>
+              <div className="mono" style={{ fontSize:8, color:"var(--td)", letterSpacing:"0.15em" }}>A FORTRESS HIDDEN IN THE ABYSS DEPTHS</div>
             </div>
           </div>
 
@@ -861,14 +861,14 @@ useEffect(() => {
             ))}
           </div>
 
-          <button onClick={() => navigate("DIVE")} style={{
+          <div style={{
             fontFamily:"'Orbitron',monospace", fontWeight:700, fontSize:10,
             letterSpacing:"0.22em", padding:"9px 22px",
             background:"transparent", color:"var(--cyan)",
             border:"1px solid var(--cyan)",
             clipPath:"polygon(8px 0%,100% 0%,calc(100% - 8px) 100%,0% 100%)",
             animation:"bPulse 2.8s ease-in-out infinite", cursor:"none",
-          }}>▶ DIVE NOW</button>
+          }}>▶ 255 Abyss Units</div>
         </nav>
 
         {/* TICKER */}
